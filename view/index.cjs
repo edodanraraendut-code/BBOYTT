@@ -49,10 +49,36 @@
             </div>
         </div>
     </div>
+/*
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.9.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.9.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
 
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyB1JFtbUY5u10m2ElIA5NfacOtLkdU3YNc",
+    authDomain: "edoajah-7d3b7.firebaseapp.com",
+    databaseURL: "https://edoajah-7d3b7-default-rtdb.firebaseio.com",
+    projectId: "edoajah-7d3b7",
+    storageBucket: "edoajah-7d3b7.firebasestorage.app",
+    messagingSenderId: "379480683867",
+    appId: "1:379480683867:web:64a3b4d3428266970dd67e",
+    measurementId: "G-TBDRJ0GEGL"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script> 
+*/
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
     <script>
-        const firebaseConfig = { apiKey: "AIza...", databaseURL: "https://xxx.firebaseio.com/", projectId: "xxx" };
+        const firebaseConfig = { apiKey: "AIzaSyB1JFtbUY5u10m2ElIA5NfacOtLkdU3YNc", databaseURL: "https://edoajah-7d3b7-default-rtdb.firebaseio.com/", projectId: "edoajah-7d3b7" };
         firebase.initializeApp(firebaseConfig);
         const auth = firebase.auth();
         const db = firebase.database();
